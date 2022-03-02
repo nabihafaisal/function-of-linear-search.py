@@ -1,0 +1,14 @@
+def linearsearch(x,n):
+    for i in range(0,len(x)):
+        if(x[i]==n):
+            
+            return (i)
+    return -1
+x=[2,3,6,4,8,5]
+n=int(input("enter the no. to search:"))
+y=linearsearch(x,n)
+if(y!=-1):
+    
+    print("no. found at position",str(y))
+else:
+    print("no. not found")
